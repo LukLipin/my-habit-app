@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "Learn React",
+        "description": "Train 4 hours of coding every day !",
+        "goal": "365 days",
+        "unit": "day"
+    },
+    {
+        "id": 2,
+        "title": "exercise",
+        "description": "Crossfit training in home without equipment",
+        "goal": "3 times week",
+        "unit": "week"
+    }
+]
