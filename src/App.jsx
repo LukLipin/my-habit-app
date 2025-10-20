@@ -15,9 +15,12 @@ export default App;
 
 function Header() {
     return (
+      <div className="p-9 rounded-3xl shadow-lg bg-blue-100">
         <header>
-            <h1>Habit Tracker</h1>
+            <h1 className="text-3xl font-bold flex items-center justify-center">Habit Tracker</h1>
         </header>
+      </div>
+
     );
 }
 
@@ -53,8 +56,8 @@ function Form({ setHabits }) {
 
 function HabitList({ habits }) {
     return (
-        <div>
-            <h2>Habit List</h2>
+        <div className="p-2 rounded-2xl shadow-lg bg-sky-200">
+            <h2>Habit List: </h2>
             {habits.map((habit) => (
                 <HabitListItem habit={habit} />
             ))}
@@ -64,7 +67,7 @@ function HabitList({ habits }) {
 
 function HabitListItem({ habit }) {
     return (
-        <div>
+        <div className="p-2 rounded-2xl shadow-lg bg-sky-200">
             <p>{habit.title}</p>
         </div>
     );
